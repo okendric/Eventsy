@@ -1,0 +1,97 @@
+nav {
+  width: 51.5%;
+  height: 92.5px;
+  border-bottom: 2px solid white;
+  position: fixed;
+  left: 25%;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  margin-top: 30px;
+  margin-left: -8px;
+}
+nav .logo img {
+  width: 109px;
+  height: 42px;
+}
+nav .links {
+  color: rgb(238, 67, 103);
+  font-size: 35px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 37px;
+}
+nav .links a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 7px;
+}
+
+* {
+  margin: 0;
+}
+
+.site-container {
+  max-width: 1280px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+.site-container .splash {
+  max-width: 1280px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.site-container .splash .image-overlay {
+  background: rgba(255, 209, 64, 0.75);
+  position: absolute;
+  width: 1280px;
+  height: 500px;
+  z-index: 2;
+}
+.site-container .splash img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+}
+.site-container .splash .splashBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  z-index: 99;
+}
+.site-container .splash .splashBox h1 {
+  font-size: 40px;
+  color: white;
+  font-family: pt-serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.site-container .splash .splashBox #red {
+  color: #EE4367;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  margin-bottom: 48px;
+}
+.site-container .splash .splashBox #white {
+  font-size: 20px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=styles.css.map */
