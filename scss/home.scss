@@ -4,15 +4,14 @@
 
 .site-container {
     max-width: 1280px;
-    height: 1000px;
     margin: 0 auto;
-    background-color: antiquewhite;
 
     .splash {
         max-width: 1280px;
         height: 500px;
         display: flex;
         justify-content: center;
+
         .image-overlay {
             background: rgba(255, 209, 64, 0.75);
             position: absolute;
@@ -34,9 +33,11 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             position: absolute;
             width: 450px;
-            height: 500px;
+            height: 400px;
+            margin-top: 90px;
             z-index: 99;
 
             h1 {
@@ -51,7 +52,7 @@
             #red {
                 color: #EE4367;
                 font-size: 20px;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-style: italic;
                 margin-bottom: 48px;
             }
@@ -59,9 +60,282 @@
             #white {
                 font-size: 20px;
                 color: white;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-style: italic;
+                margin-bottom: 48px;
             }
+
+            .read-more {
+                width: 120px;
+                height: 40px;
+                background-color: #EE4367;
+
+
+                p {
+                    margin-top: 10px;
+                    font-size: 15px;
+                    color: white;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+
+    .whiteBox {
+        max-width: 1280px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bigBox {
+            width: 740px;
+            height: 150px;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .box1 {
+                font-size: 15px;
+                color: #FFD140;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+                font-weight: bold;
+                margin-bottom: 19px;
+                line-height: 1.5;
+            }
+
+            .box2 {
+                position: relative;
+                bottom: 0;
+                left: 0;
+
+                h1 {
+                    font-size: 15px;
+                    color: #EE4367;
+                    margin-bottom: 4px;
+                    font-family: pt-serif, serif;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-size: 10px;
+                    color: #A8A8A8;
+                    font-family: pt-serif, serif;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .purpleBox {
+        max-width: 1280px;
+        height: 240px;
+        background-color: #540D6E;
+        padding: 40px;
+
+        .dates {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .title {
+            width: 392px;
+            height: 40px;
+            border-bottom: white solid 2px;
+            margin-bottom: 35px;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 25px;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 100;
+                letter-spacing: 3px;
+            }
+        }
+
+        .reusable {
+            display: flex;
+            margin-bottom: 30px;
+
+            .date {
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+
+                h1 {
+                    color: white;
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+                p {
+                    color: white;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+
+        .eventText {
+            #firstText {
+                color: white;
+                font-size: 15px;
+                width: 150px;
+                margin-bottom: 10px;
+            }
+
+            #secondText {
+                color: #EE4367;
+                font-size: 13px;
+                width: 130px;
+            }
+        }
+    }
+}
+
+.pinkBox {
+    width: 100%;
+    height: 455px;
+    background-color: #EE4367;
+
+    .logoBottom {
+        padding-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 42px;
+        width: 109px;
+    }
+
+    .bottomHero {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        text-align: center;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        p {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+    }
+
+    .subscribe {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 45px;
+        width: 700px;
+
+        .area {
+            width: 529px;
+            height: 60px;
+            background-color: #F56B88;
+            border: none;
+            color: white;
+            padding-left: 20px;
+
+            &::placeholder {
+                color: #f9aebe;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        .button {
+            text-align: center;
+            background-color: white;
+            height: 60px;
+            width: 167px;
+            cursor: pointer;
+
+            p {
+                text-transform: uppercase;
+                color: #EE4367;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+                letter-spacing: 2px;
+                font-weight: 500;
+                margin-top: 19px;
+            }
+        }
+    }
+
+    .socials {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        margin-top: 25px;
+        padding-left: 20px;
+    }
+
+    #foot {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        color: #f7a1b3;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1246px) {
+    .purpleBox {
+        height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .purpleBox {
+        height: 550px !important;
+    }
+
+    .subscribe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 490px !important;
+        position: relative;
+
+        .area {
+            width: 300px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .purpleBox {
+        height: 850px !important;
+
+        .dates {
+            left: 25%;
+            position: absolute;
+        }
+    }
+
+    .subscribe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 460px !important;
+        position: relative;
+
+        .area {
+            width: 270px !important;
         }
     }
 }
