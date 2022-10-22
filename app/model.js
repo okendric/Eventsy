@@ -722,8 +722,134 @@ var _blogNumber5Content = `  <div class="site-container">
 </div>
 </div>`;
 
+var _weblogoContent = `<div class="site-container">
+<div class="splash">
+  <div class="splashBox">
+    <h1>Header goes here</h1>
+    <p id="red">Less important text goes here</p>
+    <p id="white">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+      aliquid minus nemo sed est.
+    </p>
+
+    <div class="read-more">
+      <p>Read More</p>
+    </div>
+  </div>
+  <div class="image-overlay"></div>
+  <img src="images/home-hero.jpg" alt="" />
+</div>
+
+<div class="whiteBox">
+  <div class="bigBox">
+    <div class="box1">
+      <p>
+        “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium totam rem aperiam eaque ipsa
+        quae ab illo inventore veritatis et quasi architecto beatae vitae
+        dicta sunt explicabo. Iste natus error sit voluptatem accusantium
+        doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
+        inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo”
+      </p>
+    </div>
+
+    <div class="box2">
+      <h1>John Smith</h1>
+      <p>Corporation CEO, books author.</p>
+    </div>
+  </div>
+</div>
+
+<div class="purpleBox">
+  <div class="title">
+    <h1>upcoming events:</h1>
+  </div>
+
+  <section class="dates">
+    <div class="reusable">
+      <div class="date">
+        <h1>06</h1>
+        <p>jun</p>
+      </div>
+
+      <div class="eventText">
+        <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
+        <p id="secondText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="reusable">
+      <div class="date">
+        <h1>30</h1>
+        <p>jul</p>
+      </div>
+
+      <div class="eventText">
+        <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
+        <p id="secondText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="reusable">
+      <div class="date">
+        <h1>30</h1>
+        <p>aug</p>
+      </div>
+
+      <div class="eventText">
+        <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
+        <p id="secondText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="reusable">
+      <div class="date">
+        <h1>23</h1>
+        <p>nov</p>
+      </div>
+
+      <div class="eventText">
+        <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
+        <p id="secondText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="reusable">
+      <div class="date">
+        <h1>23</h1>
+        <p>dec</p>
+      </div>
+
+      <div class="eventText">
+        <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
+        <p id="secondText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+</div>`;
+
 
 function initListeners() {
+    $(".logo").click(function(e) {
+        let aID = e.currentTarget.id;
+        let contentID = aID + "Content";
+
+        updateView(contentID);
+    });
+
     $(".gal-image1").click(function(e) {
         let aID = e.currentTarget.id;
         let contentID = aID + "Content";
@@ -775,8 +901,10 @@ export function updateView(pageName){
 
     if(pageName == "homeContent") {
   $("#nav-holder").removeClass("dark");
+    } else if(pageName == "weblogoContent"){
+      $("#nav-holder").removeClass("dark");
     } else {
-  $("#nav-holder").addClass("dark");
+      $("#nav-holder").addClass("dark");
     }
 
     initListeners();
