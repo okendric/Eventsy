@@ -1,9 +1,10 @@
 nav {
-  width: 51.5%;
+  width: 51.7%;
   height: 92.5px;
+  margin: 0 auto;
   border-bottom: 2px solid white;
   position: fixed;
-  left: 25%;
+  left: 24.2%;
   z-index: 99;
   display: flex;
   justify-content: space-between;
@@ -625,6 +626,82 @@ nav .links a {
     font-size: 60px;
     margin-top: 47px;
   }
+}
+.eventSpace {
+  min-height: 1180px;
+  max-width: 981px;
+  margin: 0 auto;
+}
+.eventSpace .eventPic {
+  max-width: 981px;
+  height: 300px;
+  padding-top: 148px;
+  z-index: 1;
+  position: relative;
+}
+.eventSpace .eventPic img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.eventSpace .eventPic .event-overlay {
+  width: 981px;
+  height: 300px;
+  position: absolute;
+  background-color: rgba(238, 67, 103, 0.7);
+  z-index: 2;
+}
+.eventSpace .eventPic .eventArea {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  max-width: 981px;
+  margin-top: -235px;
+  z-index: 3;
+  position: relative;
+}
+.eventSpace .eventPic .eventArea .eventDate {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.eventSpace .eventPic .eventArea .eventDate h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+.eventSpace .eventPic .eventArea .eventDate h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 31px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.eventSpace .eventParagraphs {
+  margin-top: 55px;
+  max-width: 856px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.eventSpace .eventParagraphs .event-paragraph-area {
+  margin-top: 70px;
+}
+.eventSpace .eventParagraphs .event-paragraph-area h3 {
+  color: #EE4367;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 30px;
+}
+.eventSpace .eventParagraphs .event-paragraph-area p {
+  font-size: 20px;
+  letter-spacing: 1.75px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  margin-bottom: 33px;
 }
 
 /*# sourceMappingURL=styles.css.map */
