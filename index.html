@@ -9,136 +9,19 @@
     <link rel="stylesheet" href="https://use.typekit.net/wmg1sij.css" />
   </head>
   <body>
-    <nav>
+    <nav id="nav-holder">
       <div class="logo">
         <img src="images/logo/logo-white.svg" alt="" />
       </div>
 
       <div class="links">
-        <a href="index.html">home</a> /<a href="about.html">about</a> /
-        <a href="gallery1.html">gallery</a> / <a href="blog.html">blog</a> /
-        <a href="contact.html">contact</a>
+        <a id="home" href="#">home</a> / <a id="about" href="#">about</a> /
+        <a id="gallery" href="#">gallery</a> / <a id="blog" href="#">blog</a> /
+        <a id="contact" href="#">contact</a>
       </div>
     </nav>
 
-    <div class="site-container">
-      <div class="splash">
-        <div class="splashBox">
-          <h1>Header goes here</h1>
-          <p id="red">Less important text goes here</p>
-          <p id="white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
-            aliquid minus nemo sed est.
-          </p>
-
-          <div class="read-more">
-            <p>Read More</p>
-          </div>
-        </div>
-        <div class="image-overlay"></div>
-        <img src="images/home-hero.jpg" alt="" />
-      </div>
-
-      <div class="whiteBox">
-        <div class="bigBox">
-          <div class="box1">
-            <p>
-              “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium totam rem aperiam eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Iste natus error sit voluptatem accusantium
-              doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
-              inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo”
-            </p>
-          </div>
-
-          <div class="box2">
-            <h1>John Smith</h1>
-            <p>Corporation CEO, books author.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="purpleBox">
-        <div class="title">
-          <h1>upcoming events:</h1>
-        </div>
-
-        <section class="dates">
-          <div class="reusable">
-            <div class="date">
-              <h1>06</h1>
-              <p>jun</p>
-            </div>
-
-            <div class="eventText">
-              <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
-              <p id="secondText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid temporibus quos aspernatur
-              </p>
-            </div>
-          </div>
-          <div class="reusable">
-            <div class="date">
-              <h1>30</h1>
-              <p>jul</p>
-            </div>
-
-            <div class="eventText">
-              <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
-              <p id="secondText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid temporibus quos aspernatur
-              </p>
-            </div>
-          </div>
-          <div class="reusable">
-            <div class="date">
-              <h1>30</h1>
-              <p>aug</p>
-            </div>
-
-            <div class="eventText">
-              <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
-              <p id="secondText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid temporibus quos aspernatur
-              </p>
-            </div>
-          </div>
-          <div class="reusable">
-            <div class="date">
-              <h1>23</h1>
-              <p>nov</p>
-            </div>
-
-            <div class="eventText">
-              <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
-              <p id="secondText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid temporibus quos aspernatur
-              </p>
-            </div>
-          </div>
-          <div class="reusable">
-            <div class="date">
-              <h1>23</h1>
-              <p>dec</p>
-            </div>
-
-            <div class="eventText">
-              <p id="firstText">Sed et persipiatis unde omnis iste natus</p>
-              <p id="secondText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid temporibus quos aspernatur
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
+    <div id="app"></div>
 
     <div class="pinkBox">
       <div class="logoBottom">
@@ -166,5 +49,9 @@
       <div class="socials"><img src="images/social-media/socials.png" /></div>
       <p id="foot">Copyright 2019 eventsy. All rights reserved</p>
     </div>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
   </body>
 </html>

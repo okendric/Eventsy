@@ -36,6 +36,9 @@ nav .links a {
 .dark {
   border-bottom: 2px solid black;
 }
+.dark .logo img {
+  filter: invert(100%);
+}
 .dark .links a {
   color: black;
 }
@@ -364,6 +367,7 @@ nav .links a {
   height: 187px;
   margin-right: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .main-gallery-space .gallery-images .gal-image1 img {
   width: 489px;
@@ -381,6 +385,7 @@ nav .links a {
   height: 187px;
   margin-right: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .main-gallery-space .gallery-images .gal-image2 img {
   width: 187px;
@@ -397,6 +402,7 @@ nav .links a {
   width: 265px;
   height: 187px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .main-gallery-space .gallery-images .gal-image3 img {
   width: 265px;
@@ -414,6 +420,7 @@ nav .links a {
   height: 306px;
   margin-right: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .main-gallery-space .gallery-images .gal-image4 img {
   width: 603px;
@@ -430,6 +437,7 @@ nav .links a {
   width: 358px;
   height: 306px;
   margin-bottom: 70px;
+  cursor: pointer;
 }
 .main-gallery-space .gallery-images .gal-image5 img {
   width: 358px;
@@ -1200,6 +1208,7 @@ nav .links a {
   display: flex;
   margin-bottom: 30px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .blog-list-space .blog-components .blog-reusable .main-blog-date {
   width: 60px;

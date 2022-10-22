@@ -41,6 +41,12 @@ nav {
 .dark {
     border-bottom: 2px solid black;
 
+    .logo {
+        img {
+            filter: invert(100%);
+        }
+    }
+
     .links {
         a {
             color: black;
