@@ -1,360 +1,329 @@
-.gallerySpace {
-    height: 800px;
-    max-width: 1280px;
-    color: antiquewhite;
+.main-gallery-space {
+    min-height: 640px;
+    max-width: 981px;
+    margin: 0 auto;
+    padding-top: 156px;
+    padding-left: 5px;
 
-    .galleryPic1 {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 980px;
-        padding-top: 143px;
-
-        .gal-overlay1 {
-            background: rgba(255, 209, 64, 0.70);
-            position: absolute;
-            width: 980px;
-            height: 400px;
-            z-index: 2;
-        }
-
-        .gal-overlay2 {
-            background: rgba(238, 67, 103, 0.70);
-            position: absolute;
-            width: 980px;
-            height: 400px;
-            z-index: 2;
-        }
-
-        .gal-overlay3 {
-            background: rgba(8, 173, 105, 0.70);
-            position: absolute;
-            width: 980px;
-            height: 400px;
-            z-index: 2;
-        }
-
-        .gal-overlay4 {
-            background: rgba(84, 13, 110, 0.70);
-            position: absolute;
-            width: 980px;
-            height: 400px;
-            z-index: 2;
-        }
-
-        .gal-overlay5 {
-            background: rgba(59, 206, 171, 0.70);
-            position: absolute;
-            width: 980px;
-            height: 400px;
-            z-index: 2;
-        }
-
-
-        img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            z-index: 1;
-            position: relative;
-        }
-
-        .galText1 {
-            display: flex;
-            position: absolute;
-            z-index: 3;
-            margin-top: 120px;
-
-            h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 300px;
-                color: #FFD140;
-                text-shadow: 0px 1px 10px black;
-            }
-
-            p {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 140px;
-                color: #FFD140;
-                margin-top: 150px;
-                text-shadow: 0px 1px 10px black;
-            }
-        }
-
-
-        .galText2 {
-            display: flex;
-            position: absolute;
-            z-index: 3;
-            margin-top: 120px;
-
-            h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 300px;
-                color: #EE4367;
-                text-shadow: 0px 1px 10px black;
-            }
-
-            p {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 140px;
-                color: #EE4367;
-                margin-top: 150px;
-                text-shadow: 0px 1px 10px black;
-            }
-        }
-
-        .galText3 {
-            display: flex;
-            position: absolute;
-            z-index: 3;
-            margin-top: 120px;
-
-            h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 300px;
-                color: #08AD69;
-                text-shadow: 0px 1px 10px black;
-            }
-
-            p {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 140px;
-                color: #08AD69;
-                margin-top: 150px;
-                text-shadow: 0px 1px 10px black;
-            }
-        }
-
-        .galText4 {
-            display: flex;
-            position: absolute;
-            z-index: 3;
-            margin-top: 120px;
-
-            h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 300px;
-                color: #540D6E;
-                text-shadow: 0px 1px 10px black;
-            }
-
-            p {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 130px;
-                color: #540D6E;
-                margin-top: 150px;
-                text-shadow: 0px 1px 10px black;
-            }
-        }
-
-        .galText5 {
-            display: flex;
-            position: absolute;
-            z-index: 3;
-            margin-top: 120px;
-
-            h1 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 300px;
-                color: #3BCEAB;
-                text-shadow: 0px 1px 10px black;
-            }
-
-            p {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 140px;
-                color: #3BCEAB;
-                margin-top: 150px;
-                text-shadow: 0px 1px 10px black;
-            }
-        }
-
-    }
-
-    .paragraphsGal1 {
-        margin-top: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
-        display: flex;
-        max-width: 980px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: space-between;
+    .gallery-title {
+        width: 220px;
+        height: 31px;
+        border-bottom: 2px solid black;
+        margin-bottom: 30px;
 
         p {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: lighter;
-            font-style: italic;
-            font-size: 16px;
-            color: black;
-            letter-spacing: 0.5px;
+            font-size: 25px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+    }
+
+    .gallery-images {
+        display: flex;
+        flex-wrap: wrap;
+
+        .gal-image1 {
+            width: 489px;
+            height: 187px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            img {
+                width: 489px;
+                height: 187px;
+                object-fit: cover;
+            }
+
+            .gal-image1-overlay {
+                position: absolute;
+                width: 489px;
+                height: 187px;
+                background-color: rgba(255, 209, 64, 0.7);
+            }
         }
 
+        .gal-image2 {
+            width: 187px;
+            height: 187px;
+            margin-right: 20px;
+            margin-bottom: 20px;
 
+            img {
+                width: 187px;
+                height: 187px;
+                object-fit: cover;
+            }
 
-        #pGal1 {
-            width: 470px;
-            margin-right: 40px;
+            .gal-image2-overlay {
+                position: absolute;
+                width: 187px;
+                height: 187px;
+                background-color: rgba(238, 67, 103, 0.7);
+            }
         }
 
-        #pGal2 {
-            width: 470px;
+        .gal-image3 {
+            width: 265px;
+            height: 187px;
+            margin-bottom: 20px;
+
+            img {
+                width: 265px;
+                height: 187px;
+                object-fit: cover;
+            }
+
+            .gal-image3-overlay {
+                position: absolute;
+                width: 265px;
+                height: 187px;
+                background-color: rgba(8, 173, 105, 0.7);
+            }
         }
 
+        .gal-image4 {
+            width: 603px;
+            height: 306px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            img {
+                width: 603px;
+                height: 306px;
+                object-fit: cover;
+            }
+
+            .gal-image4-overlay {
+                position: absolute;
+                width: 603px;
+                height: 306px;
+                background-color: rgba(84, 13, 110, 0.7);
+            }
+        }
+
+        .gal-image5 {
+            width: 358px;
+            height: 306px;
+            margin-bottom: 70px;
+
+            img {
+                width: 358px;
+                height: 306px;
+                object-fit: cover;
+            }
+
+            .gal-image5-overlay {
+                position: absolute;
+                width: 358px;
+                height: 306px;
+                background-color: rgba(59, 206, 171, 0.7);
+            }
+        }
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .gallerySpace {
-        .galleryPic1 {
-            .textWrapperGal1 {
-                text-align: center;
-                display: flex;
-                justify-content: center;
+@media only screen and (max-width: 1002px) {
+    .main-gallery-space {
+        margin-left: 27%;
 
-                .galText1 {
-                    margin-top: 230px;
+        .gallery-images {
 
-                    h1 {
-                        font-size: 170px;
-                    }
-
-                    p {
-                        font-size: 100px;
-                        margin-top: 65px;
-                    }
+            .gal-image2 {
+                width: 220px;
+                img {
+                    width: 220px;
                 }
 
-                .galText2 {
-                    margin-top: 230px;
-
-                    h1 {
-                        font-size: 170px;
-                    }
-
-                    p {
-                        font-size: 100px;
-                        margin-top: 65px;
-                    }
+                .gal-image2-overlay {
+                    width: 220px;
+                }
+            }
+            .gal-image3 {
+                margin-right: 20px;
+                width: 250px;
+                img {
+                    width: 250px;
                 }
 
-                .galText3 {
-                    margin-top: 230px;
+                .gal-image3-overlay {
+                    width: 250px;
+                }
+            }
 
-                    h1 {
-                        font-size: 170px;
-                    }
-
-                    p {
-                        font-size: 100px;
-                        margin-top: 65px;
-                    }
+            .gal-image4 {
+                height: 187px;
+                width: 250px;
+                img {
+                    width: 250px;
+                    height: 187px;
                 }
 
-                .galText4 {
-                    margin-top: 230px;
+                .gal-image4-overlay {
+                    height: 187px;  
+                    width: 250px;
+                }
+            }
 
-                    h1 {
-                        font-size: 170px;
-                    }
-
-                    p {
-                        font-size: 90px;
-                        margin-top: 75px;
-                    }
+            .gal-image5 {
+                height: 187px;
+                width: 220px;
+                img {
+                    width: 220px;
+                    height: 187px;
                 }
 
-                .galText5 {
-                    margin-top: 230px;
-
-                    h1 {
-                        font-size: 170px;
-                    }
-
-                    p {
-                        font-size: 100px;
-                        margin-top: 65px;
-                    }
+                .gal-image5-overlay {
+                    height: 187px;  
+                    width: 220px;
                 }
             }
         }
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 722px) {
+    .main-gallery-space {
+        margin-left: 0;
 
-    .gallerySpace {
-        height: 900px;
-
-        .galleryPic1 {
-            .textWrapperGal1 {
-                text-align: center;
-                display: flex;
-                justify-content: center;
-
-                .galText1 {
-                    margin-top: 290px;
-
-                    h1 {
-                        font-size: 110px;
-                    }
-
-                    p {
-                        font-size: 60px;
-                        margin-top: 47px;
-                    }
+        .gallery-title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery-images {
+            margin-left: 23%;
+            .gal-image1 {
+                width: 400px;
+                img {
+                    width: 400px;
                 }
 
-                .galText2 {
-                    margin-top: 290px;
+                .gal-image1-overlay {
+                    width: 400px;
+                }
+            }
 
-                    h1 {
-                        font-size: 110px;
-                    }
-
-                    p {
-                        font-size: 60px;
-                        margin-top: 47px;
-                    }
+            .gal-image2 {
+                width: 400px;
+                img {
+                    width: 400px;
                 }
 
-                .galText3 {
-                    margin-top: 290px;
-
-                    h1 {
-                        font-size: 110px;
-                    }
-
-                    p {
-                        font-size: 60px;
-                        margin-top: 47px;
-                    }
+                .gal-image2-overlay {
+                    width: 400px;
+                }
+            }
+            .gal-image3 {
+                margin-right: 20px;
+                width: 400px;
+                img {
+                    width: 400px;
                 }
 
-                .galText4 {
-                    margin-top: 290px;
+                .gal-image3-overlay {
+                    width: 400px;
+                }
+            }
 
-                    h1 {
-                        font-size: 110px;
-                    }
-
-                    p {
-                        font-size: 60px;
-                        margin-top: 47px;
-                    }
+            .gal-image4 {
+                height: 187px;
+                width: 400px;
+                img {
+                    width: 400px;
+                    height: 187px;
                 }
 
-                .galText5 {
-                    margin-top: 290px;
+                .gal-image4-overlay {
+                    height: 187px;  
+                    width: 400px;
+                }
+            }
 
-                    h1 {
-                        font-size: 110px;
-                    }
+            .gal-image5 {
+                height: 187px;
+                width: 400px;
+                img {
+                    width: 400px;
+                    height: 187px;
+                }
 
-                    p {
-                        font-size: 60px;
-                        margin-top: 47px;
-                    }
+                .gal-image5-overlay {
+                    height: 187px;  
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-gallery-space {
+        margin-left: 0;
+
+        .gallery-title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery-images {
+            margin-left: 8%;
+            .gal-image1 {
+                width: 400px;
+                img {
+                    width: 400px;
+                }
+
+                .gal-image1-overlay {
+                    width: 400px;
+                }
+            }
+
+            .gal-image2 {
+                width: 400px;
+                img {
+                    width: 400px;
+                }
+
+                .gal-image2-overlay {
+                    width: 400px;
+                }
+            }
+            .gal-image3 {
+                margin-right: 20px;
+                width: 400px;
+                img {
+                    width: 400px;
+                }
+
+                .gal-image3-overlay {
+                    width: 400px;
+                }
+            }
+
+            .gal-image4 {
+                height: 187px;
+                width: 400px;
+                img {
+                    width: 400px;
+                    height: 187px;
+                }
+
+                .gal-image4-overlay {
+                    height: 187px;  
+                    width: 400px;
+                }
+            }
+
+            .gal-image5 {
+                height: 187px;
+                width: 400px;
+                img {
+                    width: 400px;
+                    height: 187px;
+                }
+
+                .gal-image5-overlay {
+                    height: 187px;  
+                    width: 400px;
                 }
             }
         }
